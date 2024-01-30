@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_ValidateAmazonPayTranscation_005,Chrome 120.0.0.0,,,30-01-2024 18:44:19,30-01-2024 18:45:34,1m - 15.220s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateAmazonPayTranscations,Chrome 120.0.0.0,,,30-01-2024 18:45:11,30-01-2024 18:45:34,22.410s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,30-01-2024 18:45:11,30-01-2024 18:45:15,3.258s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,30-01-2024 18:45:15,30-01-2024 18:45:15,0.003s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,30-01-2024 18:45:15,30-01-2024 18:45:16,1.195s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,30-01-2024 18:45:16,30-01-2024 18:45:18,2.164s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateAmazonnPay_Transactions/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Chrome 120.0.0.0,,,30-01-2024 18:45:18,30-01-2024 18:45:20,1.657s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateAmazonnPay_Transactions/Page_Amazon Sign In/input_email""), ""8639326702"")",Chrome 120.0.0.0,,,30-01-2024 18:45:20,30-01-2024 18:45:21,1.470s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateAmazonnPay_Transactions/Page_Amazon Sign In/inputcontinue""))",Chrome 120.0.0.0,,,30-01-2024 18:45:21,30-01-2024 18:45:22,1.129s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_ValidateAmazonnPay_Transactions/Page_Amazon Sign In/input_password""), ""yApcPZgl258tA4QLdcldiw=="")",Chrome 120.0.0.0,,,30-01-2024 18:45:22,30-01-2024 18:45:23,1.117s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateAmazonnPay_Transactions/Page_Amazon Sign In/inputsignInSubmit""))",Chrome 120.0.0.0,,,30-01-2024 18:45:23,30-01-2024 18:45:24,0.455s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateAmazonnPay_Transactions/Page_Online Shopping site in India Shop Onl_10c5f3/a_All""))",Chrome 120.0.0.0,,,30-01-2024 18:45:24,30-01-2024 18:45:28,4.429s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateAmazonnPay_Transactions/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon Pay""))",Chrome 120.0.0.0,,,30-01-2024 18:45:28,30-01-2024 18:45:30,1.936s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateAmazonnPay_Transactions/Page_Amazon Pay/span_Your Transactions""))",Chrome 120.0.0.0,,,30-01-2024 18:45:30,30-01-2024 18:45:33,2.433s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateAmazonnPay_Transactions/Page_Amazon Pay - Track all your payments, _52a73a/span_All""))",Chrome 120.0.0.0,,,30-01-2024 18:45:33,30-01-2024 18:45:34,0.947s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 18:45:34,30-01-2024 18:45:34,0.181s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,30-01-2024 18:45:34,30-01-2024 18:45:34,0.007s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,30-01-2024 18:45:34,30-01-2024 18:45:34,0.001s,PASSED

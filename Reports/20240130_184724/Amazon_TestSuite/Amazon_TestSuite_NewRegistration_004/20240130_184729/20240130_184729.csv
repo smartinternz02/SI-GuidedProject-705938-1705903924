@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_NewRegistration_004,Chrome 120.0.0.0,,,30-01-2024 18:47:49,30-01-2024 18:48:57,1m - 8.456s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_NewRegistration_004,Chrome 120.0.0.0,,,30-01-2024 18:48:44,30-01-2024 18:48:57,13.458s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,30-01-2024 18:48:44,30-01-2024 18:48:47,3.259s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,30-01-2024 18:48:47,30-01-2024 18:48:47,0.002s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,30-01-2024 18:48:47,30-01-2024 18:48:49,1.214s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,30-01-2024 18:48:49,30-01-2024 18:48:50,1.788s,PASSED
+"click(findTestObject(""Object Repository/Amazon_NewRegistration_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Start here""))",Chrome 120.0.0.0,,,30-01-2024 18:48:50,30-01-2024 18:48:53,2.921s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_NewRegistration_OR/Page_Amazon Registration/input_customerName""), ""tara"")",Chrome 120.0.0.0,,,30-01-2024 18:48:53,30-01-2024 18:48:55,1.373s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_NewRegistration_OR/Page_Amazon Registration/input_email""), ""9440327791"")",Chrome 120.0.0.0,,,30-01-2024 18:48:55,30-01-2024 18:48:55,0.808s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_NewRegistration_OR/Page_Amazon Registration/input_password""), ""yApcPZgl258tA4QLdcldiw=="")",Chrome 120.0.0.0,,,30-01-2024 18:48:55,30-01-2024 18:48:56,0.617s,PASSED
+"click(findTestObject(""Object Repository/Amazon_NewRegistration_OR/Page_Amazon Registration/inputcontinue""))",Chrome 120.0.0.0,,,30-01-2024 18:48:56,30-01-2024 18:48:57,1.239s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 18:48:57,30-01-2024 18:48:57,0.166s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,30-01-2024 18:48:57,30-01-2024 18:48:57,0.012s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,30-01-2024 18:48:57,30-01-2024 18:48:57,0.002s,PASSED

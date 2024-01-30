@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_LoginWithCode_003,Chrome 120.0.0.0,,,30-01-2024 18:47:47,30-01-2024 18:48:32,45.482s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_LoginWithCode_003,Chrome 120.0.0.0,,,30-01-2024 18:47:48,30-01-2024 18:48:32,44.795s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,30-01-2024 18:47:48,30-01-2024 18:48:03,15.576s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,30-01-2024 18:48:03,30-01-2024 18:48:03,0.026s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,30-01-2024 18:48:04,30-01-2024 18:48:12,7.613s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,30-01-2024 18:48:12,30-01-2024 18:48:14,2.607s,PASSED
+"click(findTestObject(""Object Repository/Amazon_LoginWithCode_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Chrome 120.0.0.0,,,30-01-2024 18:48:14,30-01-2024 18:48:25,10.372s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_LoginWithCode_OR/Page_Amazon Sign In/input_email""), ""8639326702"")",Chrome 120.0.0.0,,,30-01-2024 18:48:25,30-01-2024 18:48:26,1.610s,PASSED
+"click(findTestObject(""Object Repository/Amazon_LoginWithCode_OR/Page_Amazon Sign In/inputcontinue""))",Chrome 120.0.0.0,,,30-01-2024 18:48:26,30-01-2024 18:48:28,1.310s,PASSED
+"click(findTestObject(""Object Repository/Amazon_LoginWithCode_OR/Page_Amazon Sign In/inputcontinue""))",Chrome 120.0.0.0,,,30-01-2024 18:48:28,30-01-2024 18:48:30,2.097s,PASSED
+"click(findTestObject(""Object Repository/Amazon_LoginWithCode_OR/Page_Authentication required/body_cvf-input-code-container     flex 1  A_edb745""))",Chrome 120.0.0.0,,,30-01-2024 18:48:30,30-01-2024 18:48:30,0.634s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_LoginWithCode_OR/Page_Authentication required/input_code""), ""585739"")",Chrome 120.0.0.0,,,30-01-2024 18:48:30,30-01-2024 18:48:31,0.741s,PASSED
+"click(findTestObject(""Object Repository/Amazon_LoginWithCode_OR/Page_Authentication required/input_a-button-input""))",Chrome 120.0.0.0,,,30-01-2024 18:48:31,30-01-2024 18:48:32,1.043s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 18:48:32,30-01-2024 18:48:32,0.252s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,30-01-2024 18:48:32,30-01-2024 18:48:32,0.006s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,30-01-2024 18:48:32,30-01-2024 18:48:32,0.005s,PASSED

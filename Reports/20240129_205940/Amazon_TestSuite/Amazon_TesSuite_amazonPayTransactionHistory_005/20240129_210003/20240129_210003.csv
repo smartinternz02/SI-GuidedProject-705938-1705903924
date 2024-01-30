@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TesSuite_amazonPayTransactionHistory_005,Chrome 120.0.0.0,,,29-01-2024 21:01:13,29-01-2024 21:03:02,1m - 48.659s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_amazonPayTransactionHistory_005,Chrome 120.0.0.0,,,29-01-2024 21:02:41,29-01-2024 21:03:02,21.158s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,29-01-2024 21:02:41,29-01-2024 21:02:42,1.182s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,29-01-2024 21:02:42,29-01-2024 21:02:44,1.597s,PASSED
+"click(findTestObject(""Object Repository/Amazon_amazonpayTransactionHistory_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Chrome 120.0.0.0,,,29-01-2024 21:02:44,29-01-2024 21:02:47,3.213s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_amazonpayTransactionHistory_OR/Page_Amazon Sign In/input_email""), ""8639326702"")",Chrome 120.0.0.0,,,29-01-2024 21:02:47,29-01-2024 21:02:48,1.458s,PASSED
+"click(findTestObject(""Object Repository/Amazon_amazonpayTransactionHistory_OR/Page_Amazon Sign In/inputcontinue""))",Chrome 120.0.0.0,,,29-01-2024 21:02:48,29-01-2024 21:02:50,1.145s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_amazonpayTransactionHistory_OR/Page_Amazon Sign In/input_password""), ""yApcPZgl258tA4QLdcldiw=="")",Chrome 120.0.0.0,,,29-01-2024 21:02:50,29-01-2024 21:02:51,1.096s,PASSED
+"click(findTestObject(""Object Repository/Amazon_amazonpayTransactionHistory_OR/Page_Amazon Sign In/inputsignInSubmit""))",Chrome 120.0.0.0,,,29-01-2024 21:02:51,29-01-2024 21:02:51,0.444s,PASSED
+"click(findTestObject(""Object Repository/Amazon_amazonpayTransactionHistory_OR/Page_Online Shopping site in India Shop Onl_10c5f3/i_hm-icon nav-sprite""))",Chrome 120.0.0.0,,,29-01-2024 21:02:51,29-01-2024 21:02:55,3.894s,PASSED
+"click(findTestObject(""Object Repository/Amazon_amazonpayTransactionHistory_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon Pay""))",Chrome 120.0.0.0,,,29-01-2024 21:02:55,29-01-2024 21:02:57,2.192s,PASSED
+"click(findTestObject(""Object Repository/Amazon_amazonpayTransactionHistory_OR/Page_Amazon Pay/span_Your Transactions""))",Chrome 120.0.0.0,,,29-01-2024 21:02:57,29-01-2024 21:03:00,2.649s,PASSED
+"click(findTestObject(""Object Repository/Amazon_amazonpayTransactionHistory_OR/Page_Amazon Pay - Track all your payments, _52a73a/span_- 17.88""))",Chrome 120.0.0.0,,,29-01-2024 21:03:00,29-01-2024 21:03:01,1.055s,PASSED
+"click(findTestObject(""Object Repository/Amazon_amazonpayTransactionHistory_OR/Page_Amazon Pay - Track all your payments, _52a73a/span_Cashback received for Amazon Shopping""))",Chrome 120.0.0.0,,,29-01-2024 21:03:01,29-01-2024 21:03:01,0.435s,PASSED
+"click(findTestObject(""Object Repository/Amazon_amazonpayTransactionHistory_OR/Page_Amazon Pay - Track all your payments, _52a73a/span_Cashback received for Amazon Shopping""))",Chrome 120.0.0.0,,,29-01-2024 21:03:01,29-01-2024 21:03:02,0.566s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,29-01-2024 21:03:02,29-01-2024 21:03:02,0.212s,PASSED

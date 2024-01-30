@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_AmazonValidationCategory_Excel_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3ed8f58-8410-4c96-bbef-1ffcb8c77e70</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>787d3e3f-970b-4402-a1c3-f6b381d7ae50</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9201bceb-5e7c-46d6-b1ca-9d963a598632</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>787d3e3f-970b-4402-a1c3-f6b381d7ae50</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9201bceb-5e7c-46d6-b1ca-9d963a598632</id>
+      <masked>false</masked>
+      <name>item</name>
+   </variable>
+</TestCaseEntity>

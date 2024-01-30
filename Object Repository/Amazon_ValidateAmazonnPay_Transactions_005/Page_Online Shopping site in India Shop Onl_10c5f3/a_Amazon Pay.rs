@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Amazon Pay</name>
+   <tag></tag>
+   <elementGuidId>3d3e1a59-691c-4438-be6a-e6def0f458e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='hmenu-content']/ul/li[22]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(22) > a.hmenu-item</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>27327b95-61ca-4bfe-8ca4-1075a127bc6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/amazonpay/home?ref_=nav_em_apay_nav_desktop_0_1_1_25</value>
+      <webElementGuid>943117c7-2b35-4f3a-9ed7-0fa493058598</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hmenu-item</value>
+      <webElementGuid>b038a4b7-5a92-4561-9c49-6551cc386a2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Amazon Pay</value>
+      <webElementGuid>01000ebc-e8c7-4447-ba2f-06efaf4259cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hmenu-content&quot;)/ul[@class=&quot;hmenu hmenu-visible&quot;]/li[22]/a[@class=&quot;hmenu-item&quot;]</value>
+      <webElementGuid>341aa9c6-223f-4d97-8e13-52d55ad13b59</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='hmenu-content']/ul/li[22]/a</value>
+      <webElementGuid>8c9e485b-59fc-4e8d-a518-b92a939c37e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Amazon Pay')])[3]</value>
+      <webElementGuid>4c07caed-34de-4d7f-9862-ec69a1ffc32c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/amazonpay/home?ref_=nav_em_apay_nav_desktop_0_1_1_25')]</value>
+      <webElementGuid>22e2e0dc-a615-43bb-abcf-b0b605acc163</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[22]/a</value>
+      <webElementGuid>5ed96f99-8beb-4a1a-b466-51b13aebdd04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/amazonpay/home?ref_=nav_em_apay_nav_desktop_0_1_1_25' and (text() = 'Amazon Pay' or . = 'Amazon Pay')]</value>
+      <webElementGuid>61486954-2ac9-434c-8748-ac7499abfc1b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>CheckPointOne</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/TestData/Amazon_Login_TestData</source-url>
+   </source-info>
+   <taken-date>2024-01-30T15:06:03.304+05:30</taken-date>
+   <column-names>
+      <column-name>category</column-name>
+      <column-name>item</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "Electronics",
+      "checked": true
+    },
+    {
+      "value": "Samsung Galaxy",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Books",
+      "checked": true
+    },
+    {
+      "value": " 100 lessons that will change your mindset",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Baby",
+      "checked": true
+    },
+    {
+      "value": "Waker",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

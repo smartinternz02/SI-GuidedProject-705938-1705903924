@@ -1,0 +1,104 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Pages_Amazon_SigninThroghPassword_OR/Page_Amazon Sign-In/input_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Pages_Amazon_SigninThroghPassword_OR/Page_Amazon Sign-In/input_password_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Pages_Amazon_SigninThroghPassword_OR/Page_Amazon Sign-In/inputsignInSubmit",
+      "brokenLocator": "//input[@id\u003d\u0027signInSubmit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Pages_Amazon_SigninThroghPassword_OR/Page_Amazon Sign-In/inputsignInSubmit_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_AddCart_OR/Page_Amazon.com  samsung galaxy/img_s-image",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[4]/div/div/div/div/span/div/div/div/div/div/div[2]/div/span/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_Amazon_AddCart_OR/Page_Amazon.com  samsung galaxy/img_s-image_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Vitamin C face serum/img_s-image",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[21]/div/div/span/div/div/div/span/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[21]/div/div/span/div/div/div/span/a/div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Vitamin C face serum/img_s-image_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Amazon_ForgetPassword_OR/Page_Amazon.com. Spend less. Smile more/a_Amazon",
+      "brokenLocator": "//a[@id\u003d\u0027nav-bb-logo\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Amazon\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Amazon_ForgetPassword_OR/Page_Amazon.com. Spend less. Smile more/a_Amazon_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Pages_LoginSignin_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in",
+      "brokenLocator": "//div[@id\u003d\u0027nav-signin-tooltip\u0027]/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[(text() \u003d \u0027Sign in\u0027 or . \u003d \u0027Sign in\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Login_OR/Page_Amazon Sign In/input_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_Login_OR/Page_Amazon Sign In/input_password_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.in  Mobile phone/span_Samsung Galaxy M04 Light Green, 4GB RA_ae386e",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[5]/div/div/div[3]/div/div/span/div/div/div/div[2]/div/div/div/h2/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div[3]/div/div/span/div/div/div/div[2]/div/div/div/h2/a/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.in  Mobile phone/span_Samsung Galaxy M04 Light Green, 4GB RA_ae386e_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_AddtoCard_OR/Page_Online Shopping site in India Shop Onl_10c5f3/img__cDEzb_missionImage_bHVL4",
+      "brokenLocator": "//div[@id\u003d\u0027CardInstance6a8Vum6mD_AC1oEL2skt1w\u0027]/div/a[3]/div/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@alt\u003d\u0027Cetaphil Face Wash Gentle Skin Cleanser for Dry to Normal, Sensitive Skin, 125 ml Hydrating Face Wash with Niacinamide, Vitam\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_AddtoCard_OR/Page_Online Shopping site in India Shop Onl_10c5f3/img__cDEzb_missionImage_bHVL4_img.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_ViewCollectedCoupons_OR/Page_Amazon.in  Stores/a_Coupon Collected",
+      "brokenLocator": "//div[@id\u003d\u0027widget-3a773fa2-1b22-4ad1-98b6-a979a8a38bc4\u0027]/div[2]/div/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "a.a-size-small.a-link-normal.coupon-clipped-link",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_ViewCollectedCoupons_OR/Page_Amazon.in  Stores/a_Coupon Collected_CSS.png"
+    }
+  ]
+}

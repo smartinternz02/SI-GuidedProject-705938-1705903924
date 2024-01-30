@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestListenerSetUpandTearDown_TestSuiteColection" time="32.998" tests="2" failures="0" errors="0">
+   <testsuite name="TestListenerSetUpandTearDown_Amazon_TestSuite" tests="2" failures="0" errors="0" time="28.138" skipped="0" timestamp="30-01-2024T17:33:02" hostname="THARANI - DESKTOP-D1AGAN8" id="Test Suites/TestListeners_TestSuite/TestListenerSetUpandTearDown_Amazon_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\THARANI\\git\\SI-GuidedProject-705938-1705903924\\Reports\\20240130_173255\\TestListeners_TestSuite\\TestListenerSetUpandTearDown_Amazon_TestSuite\\20240130_173256"/>
+         <property name="logFiles" value="C:\\Users\\THARANI\\git\\SI-GuidedProject-705938-1705903924\\Reports\\20240130_173255\\TestListeners_TestSuite\\TestListenerSetUpandTearDown_Amazon_TestSuite\\20240130_173256\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="THARANI - DESKTOP-D1AGAN8"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.11"/>
+         <property name="sessionId" value="f8b36c0128c05f20d010634ed26a6876"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Testlistening_TestCases/TC_Amazon_Testlistener_Registration_002" time="16.656" classname="Test Cases/Testlistening_TestCases/TC_Amazon_Testlistener_Registration_002" status="PASSED">
+         <system-out><![CDATA[30-01-2024T17:33:03 - [TEST_CASE][PASSED] - Test Cases/Testlistening_TestCases/TC_Amazon_Testlistener_Registration_002: Test Cases/Testlistening_TestCases/TC_Amazon_Testlistener_Registration_002
+
+30-01-2024T17:33:03 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+30-01-2024T17:33:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-01-2024T17:33:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-01-2024T17:33:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-01-2024T17:33:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-01-2024T17:33:05 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+30-01-2024T17:33:07 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+30-01-2024T17:33:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-01-2024T17:33:07 - [MESSAGE][PASSED] - Current window maximized
+
+30-01-2024T17:33:07 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+30-01-2024T17:33:07 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-01-2024T17:33:07 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+30-01-2024T17:33:07 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+30-01-2024T17:33:07 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+30-01-2024T17:33:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_NewRegistration_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Start here")): Object: 'Object Repository/Amazon_NewRegistration_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Start here' is clicked on
+
+30-01-2024T17:33:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_NewRegistration_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Start here' is clicked on
+
+30-01-2024T17:33:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_NewRegistration_OR/Page_Amazon Registration/input_customerName"), "tara"): Text 'tara' is set on object 'Object Repository/Amazon_NewRegistration_OR/Page_Amazon Registration/input_customerName'
+
+30-01-2024T17:33:16 - [MESSAGE][PASSED] - Text 'tara' is set on object 'Object Repository/Amazon_NewRegistration_OR/Page_Amazon Registration/input_customerName'
+
+30-01-2024T17:33:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_NewRegistration_OR/Page_Amazon Registration/input_email"), "9440327791"): Text '9440327791' is set on object 'Object Repository/Amazon_NewRegistration_OR/Page_Amazon Registration/input_email'
+
+30-01-2024T17:33:17 - [MESSAGE][PASSED] - Text '9440327791' is set on object 'Object Repository/Amazon_NewRegistration_OR/Page_Amazon Registration/input_email'
+
+30-01-2024T17:33:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Amazon_NewRegistration_OR/Page_Amazon Registration/input_password"), "yApcPZgl258tA4QLdcldiw=="): Text ****** has been set on object 'Object Repository/Amazon_NewRegistration_OR/Page_Amazon Registration/input_password'
+
+30-01-2024T17:33:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Amazon_NewRegistration_OR/Page_Amazon Registration/input_password'
+
+30-01-2024T17:33:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_NewRegistration_OR/Page_Amazon Registration/inputcontinue")): Object: 'Object Repository/Amazon_NewRegistration_OR/Page_Amazon Registration/inputcontinue' is clicked on
+
+30-01-2024T17:33:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_NewRegistration_OR/Page_Amazon Registration/inputcontinue' is clicked on
+
+30-01-2024T17:33:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+30-01-2024T17:33:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-01-2024T17:33:19 - [MESSAGE][PASSED] - Browser is closed
+
+30-01-2024T17:33:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+30-01-2024T17:33:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-01-2024T17:33:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testlistening_TestCases/TC_Amazon_Testlistening_Login_001" time="11.263" classname="Test Cases/Testlistening_TestCases/TC_Amazon_Testlistening_Login_001" status="PASSED">
+         <system-out><![CDATA[30-01-2024T17:33:19 - [TEST_CASE][PASSED] - Test Cases/Testlistening_TestCases/TC_Amazon_Testlistening_Login_001: Test Cases/Testlistening_TestCases/TC_Amazon_Testlistening_Login_001
+
+30-01-2024T17:33:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+30-01-2024T17:33:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-01-2024T17:33:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-01-2024T17:33:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-01-2024T17:33:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-01-2024T17:33:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+30-01-2024T17:33:22 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+30-01-2024T17:33:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-01-2024T17:33:23 - [MESSAGE][PASSED] - Current window maximized
+
+30-01-2024T17:33:23 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+30-01-2024T17:33:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-01-2024T17:33:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+30-01-2024T17:33:23 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+30-01-2024T17:33:23 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+30-01-2024T17:33:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Login_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in")): Object: 'Object Repository/Amazon_Login_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in' is clicked on
+
+30-01-2024T17:33:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Login_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in' is clicked on
+
+30-01-2024T17:33:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Login_OR/Page_Amazon Sign In/input_email"), "8639326702"): Text '8639326702' is set on object 'Object Repository/Amazon_Login_OR/Page_Amazon Sign In/input_email'
+
+30-01-2024T17:33:27 - [MESSAGE][PASSED] - Text '8639326702' is set on object 'Object Repository/Amazon_Login_OR/Page_Amazon Sign In/input_email'
+
+30-01-2024T17:33:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Login_OR/Page_Amazon Sign In/inputcontinue")): Object: 'Object Repository/Amazon_Login_OR/Page_Amazon Sign In/inputcontinue' is clicked on
+
+30-01-2024T17:33:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Login_OR/Page_Amazon Sign In/inputcontinue' is clicked on
+
+30-01-2024T17:33:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Amazon_Login_OR/Page_Amazon Sign In/input_password"), "yApcPZgl258tA4QLdcldiw=="): Text ****** has been set on object 'Object Repository/Amazon_Login_OR/Page_Amazon Sign In/input_password'
+
+30-01-2024T17:33:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Amazon_Login_OR/Page_Amazon Sign In/input_password'
+
+30-01-2024T17:33:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Login_OR/Page_Amazon Sign In/inputsignInSubmit")): Object: 'Object Repository/Amazon_Login_OR/Page_Amazon Sign In/inputsignInSubmit' is clicked on
+
+30-01-2024T17:33:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Login_OR/Page_Amazon Sign In/inputsignInSubmit' is clicked on
+
+30-01-2024T17:33:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+30-01-2024T17:33:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-01-2024T17:33:31 - [MESSAGE][PASSED] - Browser is closed
+
+30-01-2024T17:33:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+30-01-2024T17:33:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-01-2024T17:33:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-01-2024T17:33:02 - [TEST_SUITE][PASSED] - TestListenerSetUpandTearDown_Amazon_TestSuite: Test Cases/Testlistening_TestCases/TC_Amazon_Testlistening_Login_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Your Transactions</name>
+   <tag></tag>
+   <elementGuidId>b29b298a-0168-412e-937c-a94f920c16fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ViewStatement']/span/a/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.image-footer-text-desktop</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d6a61712-c09a-4874-8cb4-66b75732c7fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>image-footer-text-desktop</value>
+      <webElementGuid>e38e153f-ecb1-4813-8dad-51e8ca1cc7d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your Transactions</value>
+      <webElementGuid>db5beb36-ab27-45c8-9ca7-d1097c8cbcee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ViewStatement&quot;)/span[@class=&quot;a-declarative&quot;]/a[@class=&quot;a-link-normal scroller-content&quot;]/div[@class=&quot;a-section a-spacing-none a-text-center icon-text-section&quot;]/span[@class=&quot;image-footer-text-desktop&quot;]</value>
+      <webElementGuid>686c70d3-9d98-49fb-8648-cc3e43f92271</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ViewStatement']/span/a/div[2]/span</value>
+      <webElementGuid>f3b6e41a-ac43-4492-9846-464bbd871a05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/span/a/div[2]/span</value>
+      <webElementGuid>54fd8414-a3e3-4fda-8684-0b5ed1d75f34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Your Transactions' or . = 'Your Transactions')]</value>
+      <webElementGuid>f0c48775-38f2-44ab-bfb7-8b1ec1b49b7a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

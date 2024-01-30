@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_ValidateSearchFieldItem_002,Chrome 120.0.0.0,,,29-01-2024 20:55:02,29-01-2024 20:55:28,26.751s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldITem_002,Chrome 120.0.0.0,,,29-01-2024 20:55:02,29-01-2024 20:55:28,26.584s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,29-01-2024 20:55:02,29-01-2024 20:55:04,2.096s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,29-01-2024 20:55:04,29-01-2024 20:55:06,1.469s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Chrome 120.0.0.0,,,29-01-2024 20:55:06,29-01-2024 20:55:09,3.059s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon Sign In/input_email""), ""8639326702"")",Chrome 120.0.0.0,,,29-01-2024 20:55:09,29-01-2024 20:55:10,1.650s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon Sign In/inputcontinue""))",Chrome 120.0.0.0,,,29-01-2024 20:55:10,29-01-2024 20:55:12,1.239s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon Sign In/input_password""), ""yApcPZgl258tA4QLdcldiw=="")",Chrome 120.0.0.0,,,29-01-2024 20:55:12,29-01-2024 20:55:13,1.255s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon Sign In/inputsignInSubmit""))",Chrome 120.0.0.0,,,29-01-2024 20:55:13,29-01-2024 20:55:13,0.472s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561""), ""search-alias=electronics"", true)",Chrome 120.0.0.0,,,29-01-2024 20:55:13,29-01-2024 20:55:20,6.588s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), ""Samsung Galaxys23 ultra"")",Chrome 120.0.0.0,,,29-01-2024 20:55:20,29-01-2024 20:55:22,1.592s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,29-01-2024 20:55:22,29-01-2024 20:55:27,5.565s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.in  Samsung Galaxys23 ultra/img_s-image""))",Chrome 120.0.0.0,,,29-01-2024 20:55:27,29-01-2024 20:55:28,1.089s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,29-01-2024 20:55:28,29-01-2024 20:55:28,0.257s,PASSED

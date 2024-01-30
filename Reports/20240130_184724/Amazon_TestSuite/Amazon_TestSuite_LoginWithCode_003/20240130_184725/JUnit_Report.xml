@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TestSuite_LoginWithCode_003" time="45.482" tests="1" failures="0" errors="0">
+   <testsuite name="Amazon_TestSuite_LoginWithCode_003" tests="1" failures="0" errors="0" time="45.482" skipped="0" timestamp="30-01-2024T18:47:47" hostname="THARANI - DESKTOP-D1AGAN8" id="Test Suites/Amazon_TestSuite/Amazon_TestSuite_LoginWithCode_003">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\THARANI\\git\\SI-GuidedProject-705938-1705903924\\Reports\\20240130_184724\\Amazon_TestSuite\\Amazon_TestSuite_LoginWithCode_003\\20240130_184725"/>
+         <property name="logFiles" value="C:\\Users\\THARANI\\git\\SI-GuidedProject-705938-1705903924\\Reports\\20240130_184724\\Amazon_TestSuite\\Amazon_TestSuite_LoginWithCode_003\\20240130_184725\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="THARANI - DESKTOP-D1AGAN8"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.11"/>
+         <property name="sessionId" value="783b759b80dc6c88733ef7f7eae5b34c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_Amazon_LoginWithCode_003" time="44.795" classname="Test Cases/TC_Amazon_LoginWithCode_003" status="PASSED">
+         <system-out><![CDATA[30-01-2024T18:47:48 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_LoginWithCode_003: Test Cases/TC_Amazon_LoginWithCode_003
+
+30-01-2024T18:47:48 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+30-01-2024T18:47:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-01-2024T18:47:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-01-2024T18:47:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-01-2024T18:47:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-01-2024T18:47:57 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+30-01-2024T18:47:58 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+30-01-2024T18:47:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-01-2024T18:48:03 - [MESSAGE][PASSED] - Current window maximized
+
+30-01-2024T18:48:03 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+30-01-2024T18:48:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-01-2024T18:48:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+30-01-2024T18:48:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-01-2024T18:48:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-01-2024T18:48:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-01-2024T18:48:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-01-2024T18:48:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-01-2024T18:48:12 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+30-01-2024T18:48:14 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+30-01-2024T18:48:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_LoginWithCode_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in")): Object: 'Object Repository/Amazon_LoginWithCode_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in' is clicked on
+
+30-01-2024T18:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_LoginWithCode_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in' is clicked on
+
+30-01-2024T18:48:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_LoginWithCode_OR/Page_Amazon Sign In/input_email"), "8639326702"): Text '8639326702' is set on object 'Object Repository/Amazon_LoginWithCode_OR/Page_Amazon Sign In/input_email'
+
+30-01-2024T18:48:26 - [MESSAGE][PASSED] - Text '8639326702' is set on object 'Object Repository/Amazon_LoginWithCode_OR/Page_Amazon Sign In/input_email'
+
+30-01-2024T18:48:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_LoginWithCode_OR/Page_Amazon Sign In/inputcontinue")): Object: 'Object Repository/Amazon_LoginWithCode_OR/Page_Amazon Sign In/inputcontinue' is clicked on
+
+30-01-2024T18:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_LoginWithCode_OR/Page_Amazon Sign In/inputcontinue' is clicked on
+
+30-01-2024T18:48:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_LoginWithCode_OR/Page_Amazon Sign In/inputcontinue")): Object: 'Object Repository/Amazon_LoginWithCode_OR/Page_Amazon Sign In/inputcontinue' is clicked on
+
+30-01-2024T18:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_LoginWithCode_OR/Page_Amazon Sign In/inputcontinue' is clicked on
+
+30-01-2024T18:48:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_LoginWithCode_OR/Page_Authentication required/body_cvf-input-code-container     flex 1  A_edb745")): Object: 'Object Repository/Amazon_LoginWithCode_OR/Page_Authentication required/body_cvf-input-code-container     flex 1  A_edb745' is clicked on
+
+30-01-2024T18:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_LoginWithCode_OR/Page_Authentication required/body_cvf-input-code-container     flex 1  A_edb745' is clicked on
+
+30-01-2024T18:48:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_LoginWithCode_OR/Page_Authentication required/input_code"), "585739"): Text '585739' is set on object 'Object Repository/Amazon_LoginWithCode_OR/Page_Authentication required/input_code'
+
+30-01-2024T18:48:31 - [MESSAGE][PASSED] - Text '585739' is set on object 'Object Repository/Amazon_LoginWithCode_OR/Page_Authentication required/input_code'
+
+30-01-2024T18:48:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_LoginWithCode_OR/Page_Authentication required/input_a-button-input")): Object: 'Object Repository/Amazon_LoginWithCode_OR/Page_Authentication required/input_a-button-input' is clicked on
+
+30-01-2024T18:48:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_LoginWithCode_OR/Page_Authentication required/input_a-button-input' is clicked on
+
+30-01-2024T18:48:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-01-2024T18:48:32 - [MESSAGE][PASSED] - Browser is closed
+
+30-01-2024T18:48:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+30-01-2024T18:48:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-01-2024T18:48:32 - [MESSAGE][PASSED] - Browser is closed
+
+30-01-2024T18:48:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+30-01-2024T18:48:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-01-2024T18:48:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-01-2024T18:47:47 - [TEST_SUITE][PASSED] - Amazon_TestSuite_LoginWithCode_003: Test Cases/TC_Amazon_LoginWithCode_003]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

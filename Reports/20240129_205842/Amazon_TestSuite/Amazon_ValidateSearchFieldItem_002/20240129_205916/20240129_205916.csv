@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_ValidateSearchFieldItem_002,Chrome 120.0.0.0,,,29-01-2024 20:59:35,29-01-2024 21:00:44,1m - 8.632s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldITem_002,Chrome 120.0.0.0,,,29-01-2024 21:00:03,29-01-2024 21:00:44,40.128s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,29-01-2024 21:00:04,29-01-2024 21:00:09,5.371s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 120.0.0.0,,,29-01-2024 21:00:09,29-01-2024 21:00:18,9.254s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Chrome 120.0.0.0,,,29-01-2024 21:00:18,29-01-2024 21:00:23,4.952s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon Sign In/input_email""), ""8639326702"")",Chrome 120.0.0.0,,,29-01-2024 21:00:23,29-01-2024 21:00:25,1.632s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon Sign In/inputcontinue""))",Chrome 120.0.0.0,,,29-01-2024 21:00:25,29-01-2024 21:00:26,0.935s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon Sign In/input_password""), ""yApcPZgl258tA4QLdcldiw=="")",Chrome 120.0.0.0,,,29-01-2024 21:00:26,29-01-2024 21:00:27,1.279s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon Sign In/inputsignInSubmit""))",Chrome 120.0.0.0,,,29-01-2024 21:00:27,29-01-2024 21:00:27,0.442s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561""), ""search-alias=electronics"", true)",Chrome 120.0.0.0,,,29-01-2024 21:00:27,29-01-2024 21:00:36,8.155s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), ""Samsung Galaxys23 ultra"")",Chrome 120.0.0.0,,,29-01-2024 21:00:36,29-01-2024 21:00:36,0.915s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,29-01-2024 21:00:36,29-01-2024 21:00:42,5.789s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.in  Samsung Galaxys23 ultra/img_s-image""))",Chrome 120.0.0.0,,,29-01-2024 21:00:42,29-01-2024 21:00:43,1.111s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,29-01-2024 21:00:43,29-01-2024 21:00:44,0.222s,PASSED
